@@ -3,29 +3,11 @@
  * source code.
  */ 
 
-  /* first for Internet Explorer < 9 */
-  @font-face {
-    font-family: ScalaWebPro;
-    src: url("../fonts/ScalaWebPro.eot");
-  }
-  /* then for WOFF-capable browsers */
-  @font-face {
-    font-family: ScalaWebPro;
-    src: url("../fonts/ScalaWebPro.woff") format("woff");
-  }
-
 body {
   overflow:hidden; /* This will remove the default scroll, not really needed, safer nonetheless */
 }
 html {
-  font-size: 16px;
-  -webkit-text-size-adjust: 15;
-      -ms-text-size-adjust: 15px;
-  font-family: ScalaWebPro, Georgia, Times, serif;
-  line-height: 20px;
-  color:#333;
-  background:#fff;
-  height: 100%;
+  font-family: serif;
 }
 p {
   margin-bottom: 20px;
