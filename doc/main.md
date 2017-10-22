@@ -1,10 +1,68 @@
 ## Welcome
 
-* [For potential customers](##customers) interested in the best video surveillance for a premium
+* [For potential customers](##customers) interested in the best video surveillance
 * [For potential investors](##investors) interested in a 20% profit margin
+* [About](##founders) the founders
+
+~founders
+## Founders
+
+* [Michael N. Gagnon](##michael), Twitter alum, Harvard grad, former research scientist at MIT.
+
+~michael
+## Michael N. Gagnon
+
+* [Story](##story-michael)
+* [Excellence](##excellence-michael)
+* [Expertise](##expertise-michael)
+* [Work history](##work-michael)
+* [Academic history](##academic-michael)
+* [Publications](##pub-michael)
+
+~academic-michael
+## Academic history
+~story-michael
+## Story
+
+~excellence-michael
+## Excellence
+
+~pub-michael
+## Publications
+
+~work-michael
+## Work history
+
+~expertise-michael
+## Expertise
+
+
 
 ~customers
 ## Customers
+
+You can evaluate us for a 20% profit margin, over your costs, for us.
+
+- You provide personnel or a budget for personnel.
+- We give your personnel a 3-week hinayana meditation retreat.
+- We give your personnel a 1-week training course in net-centric decision support for
+video surveillance
+- We test our surveillance system using an independent real-world modeled red-team
+- If you decide to continue our service, we charge a 20% profit margin.
+- Our operators will make $40k a year, no benefits.
+- A chef on staff will serve three meals a day.
+
+~customers2
+## Customers 2
+We'll offer you the training free of charge, so you can evaluate us.
+You decide how much to invest into the investigation: are we worth it?
+
+- You provide personnel or a budget for personnel
+- Your personnel use our system for as long as you would like, from one to 
+40 days.
+- We make a 20% profit margin. You multiply your costs by 1.2 and we take the 0.2
+of that (everything above 1.0).
+
 
 [foo](##foo)
 
