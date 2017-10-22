@@ -83,6 +83,19 @@ a[href^="javascript:Sidenote.openColumnLoud"]{
   padding-right: 15px;
   float: left;
 }
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
 #breadcrumbs {
   margin: 0px;
   border-color: #aaa;
