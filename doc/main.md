@@ -1,3 +1,14 @@
+* [For potential customers](##customers) interested in the best video surveillance for a premium
+* [For potential investors](##investors) interested in a 20% profit margin
+
+~customers
+## Customers
+
+~investors
+## Investors
+
+
+~misc
 
 Be the best video surveillance company on Earth. How to be the best. For 
 24 hours worth of surveillance hire 72 hours worth of eyes. This way there's
