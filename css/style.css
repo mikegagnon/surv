@@ -19,7 +19,9 @@ em {
 i {
   font-style: italic;
 }
-
+h1 {
+  margin-left: 15px;
+}
 strong {
   font-style: bold;
 }
@@ -67,7 +69,6 @@ a[href^="javascript:Sidenote.openColumnLoud"]{
   margin-right: 10px;
 }
 .column-border-right {
-  border-right: 2px solid;
 }
 .column {
   position:absolute;
@@ -82,7 +83,6 @@ a[href^="javascript:Sidenote.openColumnLoud"]{
 }
 #breadcrumbs {
   margin: 0px;
-  border: 1px solid;
   border-color: #aaa;
 }
 #breadcrumbs a {
