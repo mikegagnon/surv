@@ -5,6 +5,7 @@
 
 body {
   overflow:hidden; /* This will remove the default scroll, not really needed, safer nonetheless */
+  font-family: serif;
 }
 html {
   font-family: serif;
