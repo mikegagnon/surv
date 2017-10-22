@@ -21,6 +21,7 @@ i {
   font-style: italic;
 }
 h1 {
+  margin-top: 15px;
   margin-left: 15px;
 }
 strong {
