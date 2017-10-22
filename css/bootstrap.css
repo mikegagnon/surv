@@ -4726,7 +4726,6 @@ tbody.collapse.show {
   margin-bottom: 1rem;
   list-style: none;
   background-color: #eceeef;
-  border-radius: 0.25rem;
 }
 
 .breadcrumb::after {
