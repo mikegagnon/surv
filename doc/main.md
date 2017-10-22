@@ -6,6 +6,15 @@
 ~customers
 ## Customers
 
+[foo](##foo)
+
+~foo
+## Foo
+
+[bar](##bar)
+
+~bar
+## Bar
 ~investors
 ## Investors
 

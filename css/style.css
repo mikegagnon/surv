@@ -22,7 +22,7 @@ i {
 }
 h1 {
   margin-top: 15px;
-  margin-left: 15px;
+  margin-left: 43px;
 }
 strong {
   font-style: bold;
@@ -97,7 +97,7 @@ h4 {
 }
 
 #breadcrumbs {
-  margin: 0px;
+  margin-left: 43px;
   border-color: #aaa;
 }
 #breadcrumbs a {

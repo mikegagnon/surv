@@ -29,14 +29,20 @@
     <div class="content-storage">
 <div id='customers'>
 <h2>Customers</h2>
+<p><a href="javascript:Sidenote.openColumnLoud('#customers','#foo','foo')">foo</a></p>
 </div>
 
-<div id='main'>
-<h2>Welcome</h2>
-<ul>
-<li><a href="javascript:Sidenote.openColumnLoud('#main','#customers','For potential customers')">For potential customers</a> interested in the best video surveillance for a premium</li>
-<li><a href="javascript:Sidenote.openColumnLoud('#main','#investors','For potential investors')">For potential investors</a> interested in a 20% profit margin</li>
-</ul>
+<div id='foo'>
+<h2>Foo</h2>
+<p><a href="javascript:Sidenote.openColumnLoud('#foo','#bar','bar')">bar</a></p>
+</div>
+
+<div id='bar'>
+<h2>Bar</h2>
+</div>
+
+<div id='investors'>
+<h2>Investors</h2>
 </div>
 
 <div id='misc'>
@@ -74,8 +80,12 @@ Then, operators operate under the assumption that 9 out of ten positives are fal
 But the operator is actively searching for the true positives.</p>
 </div>
 
-<div id='investors'>
-<h2>Investors</h2>
+<div id='main'>
+<h2>Welcome</h2>
+<ul>
+<li><a href="javascript:Sidenote.openColumnLoud('#main','#customers','For potential customers')">For potential customers</a> interested in the best video surveillance for a premium</li>
+<li><a href="javascript:Sidenote.openColumnLoud('#main','#investors','For potential investors')">For potential investors</a> interested in a 20% profit margin</li>
+</ul>
 </div>
     </div>
   </body>
