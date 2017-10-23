@@ -50,6 +50,7 @@ TEMPLATE_HTML = string.Template('''
     <script src="js/d3.v3.js"></script>
     <script src="js/lodash.js"></script>
     <script src="js/sidenote.js"></script>
+    <title>ZBG</title>
   </head>
   <body>
     <div class="btn-group addRemoveColumn">

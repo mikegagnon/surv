@@ -11,6 +11,7 @@
     <script src="js/d3.v3.js"></script>
     <script src="js/lodash.js"></script>
     <script src="js/sidenote.js"></script>
+    <title>ZBG</title>
   </head>
   <body>
     <div class="btn-group addRemoveColumn">
@@ -18,7 +19,7 @@
       <a href="javascript:Sidenote.less()">fewer columns</a>
     </div>
     <div class="headerbox">
-<h1>Surv.world</h1>
+<h1>Zen Beer Garden</h1>
     </div>
     <ul id="breadcrumbs" class="breadcrumb"></ul>
     <div id='column-container'>
@@ -31,26 +32,17 @@
 <h2>Academic history</h2>
 </div>
 
-<div id='customers'>
-<h2>Customers</h2>
-<p>You can evaluate us for a 20% profit margin, over your costs, for us.</p>
-<ul>
-<li>You provide personnel or a budget for personnel.</li>
-<li>We give your personnel a 3-week hinayana meditation retreat.</li>
-<li>We give your personnel a 1-week training course in net-centric decision support for
-video surveillance</li>
-<li>We test our surveillance system using an independent real-world modeled red-team</li>
-<li>If you decide to continue our service, we charge a 20% profit margin.</li>
-</ul>
-</div>
-
 <div id='foo'>
 <h2>Foo</h2>
 <p><a href="javascript:Sidenote.openColumnLoud('#foo','#bar','bar')">bar</a></p>
 </div>
 
-<div id='excellence-michael'>
-<h2>Excellence</h2>
+<div id='old'>
+<h2>Old</h2>
+<ul>
+<li><a href="javascript:Sidenote.openColumnLoud('#old','#customers','For potential customers')">For potential customers</a> interested in the best video surveillance</li>
+<li><a href="javascript:Sidenote.openColumnLoud('#old','#investors','For potential investors')">For potential investors</a> interested in a 20% profit margin</li>
+</ul>
 </div>
 
 <div id='investors'>
@@ -96,6 +88,18 @@ Then, operators operate under the assumption that 9 out of ten positives are fal
 But the operator is actively searching for the true positives.</p>
 </div>
 
+<div id='price'>
+<h2>20% profit margin</h2>
+<p>Whether your provide personnel or we provide personnel, for the purpose of
+calculating costs, we assume personnel make $40k a year, plus per diem according
+to the federal government&#8217;s per diem rate.</p>
+<p>Included in the cost is the 4-week retreat / training program.</p>
+<p>Included in the cost is the red-team evaluation, for both the red-team and 
+the blue-team personnel.</p>
+<p>We need at least three blue team members and one red-team member.</p>
+<p>We multiply the cost by 1.2, and we take the 0.2 above the cost as profit.</p>
+</div>
+
 <div id='michael'>
 <h2>Michael N. Gagnon</h2>
 <ul>
@@ -108,23 +112,43 @@ But the operator is actively searching for the true positives.</p>
 </ul>
 </div>
 
-<div id='expertise-michael'>
-<h2>Expertise</h2>
+<div id='cyber'>
+<h2>Towards Net-Centric Cyber Survivability for Ballistic Missile Defense</h2>
 </div>
 
-<div id='pub-michael'>
-<h2>Publications</h2>
+<div id='ncds'>
+<h2>Net-centric decision support</h2>
+<p>The idea for net-centric decision support (NCDS) is to build the best user interfaces to optimize AI-human interaction
+as part of an effort to make the best decisions as quickly as possible.</p>
+<p>The crux of NCDS is enhancing the OODA loop, the cycle of observing, orienting, deciding,
+and acting.</p>
+<p>See <a href="javascript:Sidenote.openColumnLoud('#ncds','#michael','Michael Gagnon&amp;#8217;s')">Michael Gagnon&#8217;s</a> paper:
+<a href="javascript:Sidenote.openColumnLoud('#ncds','#cyber','Towards Net-Centric Cyber Survivability for Ballistic Missile Defense')">Towards Net-Centric Cyber Survivability for Ballistic Missile Defense</a>.</p>
 </div>
 
 <div id='bar'>
 <h2>Bar</h2>
 </div>
 
-<div id='founders'>
-<h2>Founders</h2>
+<div id='expertise-michael'>
+<h2>Expertise</h2>
+</div>
+
+<div id='details'>
+<h2>Details</h2>
 <ul>
-<li><a href="javascript:Sidenote.openColumnLoud('#founders','#michael','Michael N. Gagnon')">Michael N. Gagnon</a>, Twitter alum, Harvard grad, former research scientist at MIT.</li>
+<li>You provide personnel or a budget for personnel</li>
+<li>We give the personnel a 3-week hinayana meditation retreat</li>
+<li>We give the personnel a 1-week training course in <a href="javascript:Sidenote.openColumnLoud('#details','#ncds','net-centric decision support')">net-centric decision support</a> for
+video surveillance</li>
+<li>We test our surveillance service using an independent real-world modeled red-team</li>
+<li>If you decide to continue our service, we continue to charge a <a href="javascript:Sidenote.openColumnLoud('#details','#price','20% profit margin')">20% profit margin</a>.</li>
+<li>Our personnel make $40k a year, with benefits: three meals a day per diem.</li>
 </ul>
+</div>
+
+<div id='pub-michael'>
+<h2>Publications</h2>
 </div>
 
 <div id='customers2'>
@@ -141,13 +165,29 @@ of that (everything above 1.0).</li>
 <p><a href="javascript:Sidenote.openColumnLoud('#customers2','#foo','foo')">foo</a></p>
 </div>
 
+<div id='founders'>
+<h2>Founders</h2>
+<ul>
+<li><a href="javascript:Sidenote.openColumnLoud('#founders','#michael','Michael N. Gagnon')">Michael N. Gagnon</a>, Twitter alum, Harvard grad, former research scientist at MIT.</li>
+</ul>
+</div>
+
+<div id='excellence-michael'>
+<h2>Excellence</h2>
+</div>
+
 <div id='main'>
 <h2>Welcome</h2>
-<ul>
-<li><a href="javascript:Sidenote.openColumnLoud('#main','#customers','For potential customers')">For potential customers</a> interested in the best video surveillance</li>
-<li><a href="javascript:Sidenote.openColumnLoud('#main','#investors','For potential investors')">For potential investors</a> interested in a 20% profit margin</li>
-<li><a href="javascript:Sidenote.openColumnLoud('#main','#founders','About')">About</a> the founders</li>
-</ul>
+<p>We aim to offer the best video surveillance service on Earth.</p>
+<p>You can evaluate us for a 20% profit margin over our costs plus your costs.
+<a href="javascript:Sidenote.openColumnLoud('#main','#details','Details')">Details</a>.</p>
+<p><a href="javascript:Sidenote.openColumnLoud('#main','#founders','About')">About</a> the founders.</p>
+<p>For prospective <a href="javascript:Sidenote.openColumnLoud('#main','#employees','employees')">employees</a>.</p>
+</div>
+
+<div id='employees'>
+<h2>Employees</h2>
+<p>Profit sharing</p>
 </div>
 
 <div id='story-michael'>

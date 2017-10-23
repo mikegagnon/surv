@@ -1,8 +1,68 @@
 ## Welcome
 
+We aim to offer the best video surveillance service on Earth.
+
+You can evaluate us for a 20% profit margin over our costs plus your costs.
+[Details](##details).
+
+[About](##founders) the founders.
+
+For prospective [employees](##employees).
+
+~employees
+## Employees
+
+Profit sharing
+
+~details
+## Details
+
+- You provide personnel or a budget for personnel
+- We give the personnel a 3-week hinayana meditation retreat
+- We give the personnel a 1-week training course in [net-centric decision support](##ncds) for
+video surveillance
+- We test our surveillance service using an independent real-world modeled red-team
+- If you decide to continue our service, we continue to charge a [20% profit margin](##price).
+- Our personnel make $40k a year, with benefits: three meals a day per diem.
+
+~ncds
+## Net-centric decision support
+
+The idea for net-centric decision support (NCDS) is to build the best user interfaces to optimize AI-human interaction
+as part of an effort to make the best decisions as quickly as possible.
+
+The crux of NCDS is enhancing the OODA loop, the cycle of observing, orienting, deciding,
+and acting.
+
+See [Michael Gagnon's](##michael) paper:
+[Towards Net-Centric Cyber Survivability for Ballistic Missile Defense](##cyber).
+
+~cyber
+## Towards Net-Centric Cyber Survivability for Ballistic Missile Defense
+
+
+
+~price
+## 20% profit margin
+
+Whether your provide personnel or we provide personnel, for the purpose of
+calculating costs, we assume personnel make $40k a year, plus per diem according
+to the federal government's per diem rate.
+
+Included in the cost is the 4-week retreat / training program.
+
+Included in the cost is the red-team evaluation, for both the red-team and 
+the blue-team personnel.
+
+We need at least three blue team members and one red-team member.
+
+We multiply the cost by 1.2, and we take the 0.2 above the cost as profit.
+
+~old
+## Old
+
 * [For potential customers](##customers) interested in the best video surveillance
 * [For potential investors](##investors) interested in a 20% profit margin
-* [About](##founders) the founders
 
 ~founders
 ## Founders
@@ -38,19 +98,6 @@
 
 
 
-~customers
-## Customers
-
-You can evaluate us for a 20% profit margin, over your costs, for us.
-
-- You provide personnel or a budget for personnel.
-- We give your personnel a 3-week hinayana meditation retreat.
-- We give your personnel a 1-week training course in net-centric decision support for
-video surveillance
-- We test our surveillance system using an independent real-world modeled red-team
-- If you decide to continue our service, we charge a 20% profit margin.
-- Our operators will make $40k a year, no benefits.
-- A chef on staff will serve three meals a day.
 
 ~customers2
 ## Customers 2
