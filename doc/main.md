@@ -2,24 +2,67 @@
 
 We aim to offer the best video surveillance service on Earth.
 
-You can evaluate us for a 20% profit margin over our costs plus your costs.
+* [] $1k per camera
+
+You can evaluate us for a week for $2,352 per camera operator.
+
 [Details](##details).
 
 [About](##founders) the founders.
 
-For prospective [employees](##employees).
+For potential [employees](##employees).
+
+For potential [investors](##investors).
+
+~costs
+
+How many people per camera per hour?
+
+* 4 screens per desktop
+* For every operator on duty, there's an off-duty substitute operator
+* Thus, it's two people per desktop (one on duty, one off duty)
+* During any given period, about half the screen time shows red-team recordings to
+enhance vigilance. Thus, each desktop only shows two live camera feeds at a time.
+* So two employees can cover two live camera feeds. So, one employee per camera.
+
+* $40k a year = $14/hour/employee = $14/hour/camera
+* $14/hour/camera * 24hours = $336/day/camera = $2,352/week/camera =
+  $12.2k/year/camera
+* We receive a 20% profit over personnel costs. So, the cost is:
+    * 1.2 * $336/day/camera = $403/day/camera
+    * 1.2 * $2352/week/camera = $2.8k/week/camera
+    * 1.2 * $12.2k/year/camera = $14k/year/camera
+
+Team up with integrators:
+- Half the points go to the customer
+- Half the points go to us
+- We split our half with integrators, and they help us find personnel and customers for free.
 
 ~employees
 ## Employees
 
 Profit sharing
 
+Surveilling at ZBG is like playing a video game. You watch the screen closely
+and fire alarms when appropriate. Bad guys will be constantly penetrating 
+the perimeter, and you'll need to fire the alarm  100immediately. You won't know
+when you're watching a recording of someone hopping the fence or whether you're
+watching live CCTV.
+
+For 40k a year you'll work 40 hours a week.
+You will alternate between 20 minutes on duty, and 40 minutes off duty.
+When off duty you can be on Facebook or whatever else you choose.
+We will provide 3 meals a day, as well as travel and lodging should that be
+required.
+
+
+
 ~details
 ## Details
 
 - You provide personnel or a budget for personnel
 - We give the personnel a 3-week hinayana meditation retreat
-- We give the personnel a 1-week training course in [net-centric decision support](##ncds) for
+- We give the personnel a 1-week training course in [Net-centric decision support](##ncds) for
 video surveillance
 - We test our surveillance service using an independent real-world modeled red-team
 - If you decide to continue our service, we continue to charge a [20% profit margin](##price).
@@ -28,14 +71,24 @@ video surveillance
 ~ncds
 ## Net-centric decision support
 
-The idea for net-centric decision support (NCDS) is to build the best user interfaces to optimize AI-human interaction
+The idea for Net-centric decision support (NCDS) is to build the best user interfaces to optimize AI-human interaction
 as part of an effort to make the best decisions as quickly as possible.
 
 The crux of NCDS is enhancing the OODA loop, the cycle of observing, orienting, deciding,
 and acting.
 
+Within the context of video surveillance, we use [computer-human vision](##vision) to identify
+potential threats, and provide an easy to use interface for operators to investigate
+threats and sound alarms. Key challenges include [enhancing vigilance](##vig) while
+[mitigating false negatives and false positives](##errors).
+
+With this approach we will be able to sound the alarm the moment someone breeches
+your perimeter.
+
 See [Michael Gagnon's](##michael) paper:
 [Towards Net-Centric Cyber Survivability for Ballistic Missile Defense](##cyber).
+
+
 
 ~cyber
 ## Towards Net-Centric Cyber Survivability for Ballistic Missile Defense

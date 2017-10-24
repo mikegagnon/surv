@@ -45,11 +45,16 @@ a[href^="https://"]{
 }
 a[href^="javascript:Sidenote.openColumnQuiet"]{
   color: #333;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a[href^="javascript:Sidenote.openColumnLoud"]{
   color: #44d;
   text-decoration: underline;
+}
+
+a {
+  text-decoration: underline;
+  color: blue;
 }
 
 .content-storage {
