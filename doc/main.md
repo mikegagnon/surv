@@ -1,5 +1,9 @@
 ## Welcome
 
+We offer the best doorbell in the industry
+
+ * For $12.2k for a one-week rigorous evaluation
+ * 
 We aim to offer the best video surveillance service on Earth.
 
 * [] $1k per camera
