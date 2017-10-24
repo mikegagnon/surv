@@ -38,6 +38,7 @@ Team up with integrators:
 - Half the points go to us
 - We split our half with integrators, and they help us find personnel and customers for free.
 
+
 ~employees
 ## Employees
 
