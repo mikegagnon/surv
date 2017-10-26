@@ -33,7 +33,7 @@ Price formula
 Imagine you want to do perimeter video surveillance in-house.
 It would cost you $X if you were to use our model.
 
-Or, you can pay us 2$X, we'll do it for you, and you won't have to assemble an
+Or, you can pay us 2$X, we'll do it for you, you won't have to assemble an
 elite team.
 
 You can even hire us for a while, then drop us and assemble your own elite
@@ -87,17 +87,51 @@ low prices and high margins.
 ## Methodology
 
 - [The meditator](##meditator)
+- [Computer vision](##cv)
+- [The screen](##screen)
+- [The internal red team](##internal-red)
+
+~screen
+## The screen
+
+The meditator's 30-inch screen always shows 8 different camera feeds
+
+~internal-red
+## The internal red team
+
+* 7 of the 8 feeds present actual, live, customer feeds
+* Whenever the CV system detects a potential breech, it is shown on the screen
+* One of the 8 feeds presents a [red-team](##redteam) feed, which shows a recording
+  of a simulated breech
+* The meditator can't tell which feeds are live and which one is the red team
+* Constantly red-teaming the meditator keeps the meditator focused, and allows
+  us to evaluate our own performance
+
+~cv
+## Computer vision
+
+* We use open-source computer-vision (CV) system to automatically detect breeches
+* The CV software has:
+    * A near-zero [false negative rate](##cv-fn)
+    * A low [false positive rate](##cv-fp)
+* Whenever the CV system thinks there's a breech, the CV system forwards the camera
+  feed to the meditator's screen
+* The meditator reviews the camera feed and quickly determines whether or not
+  the potential breech is an actual breech
 
 ~meditator
 ## Meditator
 
+* A trained meditator watches a screen, taking a 20-minute break every 20 minutes
+* Whenever a breech occurs on the screen, the meditator pushes the appropriate button
+* We frequently play videos of breeches to help keep the meditator focused, and
+  to evaluate our own performance
+* The meditator can't tell the difference between live feeds and video recordings
 
 ~chance
 ## Chance
 Take a chance on open business and me.
-* A trained meditator watches a screen, taking a 20-minute break every 20-minutes
-* Whenever a breech occurs on the screen, the meditator pushes the appropriate button
-* To help keep the meditator focused, we frequently play videos of breeches.
+
 
 
 
