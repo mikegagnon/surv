@@ -39,14 +39,12 @@
 <p>99% of alarms go off within 5 seconds.</p>
 </div>
 
-<div id='fair'>
-<h2>A fair deal</h2>
-<p>Imagine you want to do perimeter video surveillance in-house.
-It would cost you $X if you were to use our model.</p>
-<p>Or, you can pay us 2$X, we&#8217;ll do it for you, you won&#8217;t have to assemble an
-elite team.</p>
-<p>You can even hire us for a while, then drop us and assemble your own elite
-team later.</p>
+<div id='guess'>
+<h2>Guessing computer-vision accuracy</h2>
+<ul>
+<li>CVFP = 50</li>
+<li>CVFN = 0.001</li>
+</ul>
 </div>
 
 <div id='redblue'>
@@ -59,15 +57,34 @@ mutual red-teaming.</p>
 </ul>
 </div>
 
-<div id='profit'>
-<h2>Profit margin</h2>
-<p>The best way to get away with high profit margins is transparency.</p>
-<p>Price formula</p>
+<div id='fair'>
+<h2>A fair deal</h2>
+<ul>
+<li>You give us 100 points in cash in exchange for 50 points of value</li>
+<li>We receive 100 points in cash, and keep 50 points in cash as profit</li>
+<li>Therefore, we&#8217;re trading 50 points of value for 50 points in profit</li>
+<li>There&#8217;s fifty-fifty deals all around</li>
+</ul>
 </div>
 
-<div id='screen'>
-<h2>The screen</h2>
-<p>The meditator&#8217;s 30-inch screen always shows 8 different camera feeds</p>
+<div id='profit'>
+<h2>Profit margin</h2>
+<p>How we calculate costs:</p>
+<ul>
+<li><a href="javascript:Sidenote.openColumnLoud('#profit','#variables','Variables')">Variables</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#profit','#guess','Guessing computer-vision accuracy')">Guessing computer-vision accuracy</a></li>
+</ul>
+</div>
+
+<div id='variables'>
+<h2>Variables</h2>
+<ul>
+<li><em>CVFP</em> = the number of computer-vision false positives per day per camera</li>
+<li><em>CVFN</em> = the proportion of internal red-team breeches that aren&#8217;t detected by computer vision</li>
+<li><em>MFP</em> = the average number of meditator&#8217;s false positives per day per camera</li>
+<li><em>MFN</em> = the proportion of internal red-team breeches that aren&#8217;t detected by meditators</li>
+</ul>
+<p>TODO: formalize</p>
 </div>
 
 <div id='misc'>
@@ -78,6 +95,18 @@ mutual red-teaming.</p>
 <li>Fair means, we split it 50-50, like a temporary partnership</li>
 <li>Because it&#8217;s fair, there&#8217;s 100 points of value that&#8217;s being exchanged each way.</li>
 <li></li>
+</ul>
+<p>Imagine you want to do perimeter video surveillance in-house.
+It would cost you $X if you were to use our model.</p>
+<p>Or, you can pay us 2$X, we&#8217;ll do it for you, you won&#8217;t have to assemble an
+elite team.</p>
+<p>You can even hire us for a while, then drop us and assemble your own elite
+team later.</p>
+<p>No commitment unless you want to lock down a price</p>
+<p>The best way to get away with high profit margins is transparency.</p>
+<p>Price formula</p>
+<ul>
+<li>It&#8217;s <a href="javascript:Sidenote.openColumnLoud('#misc','#fair','a fair deal')">a fair deal</a></li>
 </ul>
 </div>
 
@@ -121,15 +150,14 @@ low prices and high margins. </p>
 <div id='vp'>
 <h2>Value proposition</h2>
 <ul>
-<li>Low <a href="javascript:Sidenote.openColumnLoud('#vp','#cost','cost')">cost</a></li>
-<li>Best service:<ul>
-<li>Low <a href="javascript:Sidenote.openColumnLoud('#vp','#fn','false-negative rate')">false-negative rate</a> </li>
-<li>Low <a href="javascript:Sidenote.openColumnLoud('#vp','#fp','false-positive rate')">false-positive rate</a></li>
+<li>We charge the highest price in our category</li>
+<li>We offer the best service in our category:<ul>
+<li>Lowest <a href="javascript:Sidenote.openColumnLoud('#vp','#fn','false-negative rate')">false-negative rate</a> </li>
+<li>Lowest <a href="javascript:Sidenote.openColumnLoud('#vp','#fp','false-positive rate')">false-positive rate</a></li>
 <li>Low <a href="javascript:Sidenote.openColumnLoud('#vp','#latency','latency')">latency</a></li>
 </ul>
 </li>
-<li>We make a 50% <a href="javascript:Sidenote.openColumnLoud('#vp','#profit','profit margin')">profit margin</a></li>
-<li>It&#8217;s <a href="javascript:Sidenote.openColumnLoud('#vp','#fair','a fair deal')">a fair deal</a></li>
+<li>We make a 50% <a href="javascript:Sidenote.openColumnLoud('#vp','#profit','fair profit margin')">fair profit margin</a></li>
 </ul>
 </div>
 
@@ -154,6 +182,16 @@ low prices and high margins. </p>
 </ul>
 </div>
 
+<div id='method'>
+<h2>Methodology</h2>
+<ul>
+<li><a href="javascript:Sidenote.openColumnLoud('#method','#meditator','The meditator')">The meditator</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#method','#cv','Computer vision')">Computer vision</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#method','#screen','The screen')">The screen</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#method','#internal-red','The internal red team')">The internal red team</a></li>
+</ul>
+</div>
+
 <div id='main'>
 <h2>Welcome</h2>
 <p>We aim to offer the best perimeter video surveillance in our category. We
@@ -163,17 +201,13 @@ detect perimeter breeches.</p>
 <li><a href="javascript:Sidenote.openColumnLoud('#main','#vp','Value proposition')">Value proposition</a></li>
 <li><a href="javascript:Sidenote.openColumnLoud('#main','#method','Methodology')">Methodology</a></li>
 <li><a href="javascript:Sidenote.openColumnLoud('#main','#team','Team')">Team</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#main','#fair','Fair')">Fair</a></li>
 </ul>
 </div>
 
-<div id='method'>
-<h2>Methodology</h2>
-<ul>
-<li><a href="javascript:Sidenote.openColumnLoud('#method','#meditator','The meditator')">The meditator</a></li>
-<li><a href="javascript:Sidenote.openColumnLoud('#method','#cv','Computer vision')">Computer vision</a></li>
-<li><a href="javascript:Sidenote.openColumnLoud('#method','#screen','The screen')">The screen</a></li>
-<li><a href="javascript:Sidenote.openColumnLoud('#method','#internal-red','The internal red team')">The internal red team</a></li>
-</ul>
+<div id='screen'>
+<h2>The screen</h2>
+<p>The meditator&#8217;s 30-inch screen always shows 8 different camera feeds</p>
 </div>
 
 <div id='fn'>

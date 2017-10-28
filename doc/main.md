@@ -7,37 +7,64 @@ detect perimeter breeches.
 - [Value proposition](##vp)
 - [Methodology](##method)
 - [Team](##team)
+- [Fair](##fair)
+- [Investors](##investors)
+
+~investors
+## Investors
+
+To invest in Zen Surveillance, sign up for a one-year subscription and throw
+us any other money our way.
 
 ~vp
 ## Value proposition
 
-- Low [cost](##cost)
-- Best service:
-    - Low [false-negative rate](##fn) 
-    - Low [false-positive rate](##fp)
+- We charge the highest price in our category
+- We offer the best service in our category:
+    - Lowest [false-negative rate](##fn) 
+    - Lowest [false-positive rate](##fp)
     - Low [latency](##latency)
-- We make a 50% [profit margin](##profit)
-- It's [a fair deal](##fair)
+- We make a 50% [fair profit margin](##profit)
 
 ~profit
 ## Profit margin
 
-The best way to get away with high profit margins is transparency.
+How we calculate costs:
 
-Price formula
+* [Variables](##variables)
+* [Guessing computer-vision accuracy](##guess)
+
+~guess
+## Guessing computer-vision accuracy
+
+* CVFP = 50
+* CVFN = 0.001
+
+
+
+~variables
+## Variables
+
+* *CVFP* = the number of computer-vision false positives per day per camera
+* *CVFN* = the proportion of internal red-team breeches that aren't detected by computer vision
+* *MFP* = the average number of meditator's false positives per day per camera
+* *MFN* = the proportion of internal red-team breeches that aren't detected by meditators
+
+TODO: formalize
+
+
+
+
 
 
 ~fair
 ## A fair deal
 
-Imagine you want to do perimeter video surveillance in-house.
-It would cost you $X if you were to use our model.
+* You give us 100 points in cash in exchange for 50 points of value
+* We receive 100 points in cash, and keep 50 points in cash as profit
+* Therefore, we're trading 50 points of value for 50 points in profit
+* There's fifty-fifty deals all around
 
-Or, you can pay us 2$X, we'll do it for you, you won't have to assemble an
-elite team.
-
-You can even hire us for a while, then drop us and assemble your own elite
-team later.
 
 ~redblue
 ## Red Team
@@ -147,3 +174,20 @@ Take a chance on open business and me.
 * Fair means, we split it 50-50, like a temporary partnership
 * Because it's fair, there's 100 points of value that's being exchanged each way.
 * 
+
+Imagine you want to do perimeter video surveillance in-house.
+It would cost you $X if you were to use our model.
+
+Or, you can pay us 2$X, we'll do it for you, you won't have to assemble an
+elite team.
+
+You can even hire us for a while, then drop us and assemble your own elite
+team later.
+
+No commitment unless you want to lock down a price
+
+The best way to get away with high profit margins is transparency.
+
+Price formula
+
+- It's [a fair deal](##fair)
