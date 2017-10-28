@@ -21,10 +21,12 @@ us any other money our way.
 
 - We charge the highest price in our category
 - We offer the best service in our category:
-    - Lowest [false-negative rate](##fn) 
-    - Lowest [false-positive rate](##fp)
+    - Near-zero [false-negative rate](##fn) 
+    - Low [false-positive rate](##fp)
     - Low [latency](##latency)
-- We make a 50% [fair profit margin](##profit)
+- We make a 30% profit margin
+    - How we calculate [cost](##cost)
+
 
 ~profit
 ## Profit margin
@@ -39,8 +41,6 @@ How we calculate costs:
 
 * CVFP = 50
 * CVFN = 0.001
-
-
 
 ~variables
 ## Variables
@@ -116,32 +116,25 @@ low prices and high margins.
 - [The meditator](##meditator)
 - [Computer vision](##cv)
 - [The screen](##screen)
-- [The internal red team](##internal-red)
+- [Cost](##cost)
 
 ~screen
 ## The screen
 
-The meditator's 30-inch screen always shows 8 different camera feeds
+* The meditator's 30-inch screen always shows 8 different camera feeds
+* 1 of those feeds plays recordings of breeches
+* 7 of those feeds present potential false positives, forwarded from the
+  CV system.
 
-~internal-red
-## The internal red team
-
-* 7 of the 8 feeds present actual, live, customer feeds
-* Whenever the CV system detects a potential breech, it is shown on the screen
-* One of the 8 feeds presents a [red-team](##redteam) feed, which shows a recording
-  of a simulated breech
-* The meditator can't tell which feeds are live and which one is the red team
-* Constantly red-teaming the meditator keeps the meditator focused, and allows
-  us to evaluate our own performance
 
 ~cv
 ## Computer vision
 
-* We use open-source computer-vision (CV) system to automatically detect breeches
-* The CV software has:
+* We use an open-source computer-vision (CV) system to automatically detect breeches
+* The CV system has:
     * A near-zero [false negative rate](##cv-fn)
     * A low [false positive rate](##cv-fp)
-* Whenever the CV system thinks there's a breech, the CV system forwards the camera
+* Whenever the CV system thinks there might be a breech, the CV system forwards the camera
   feed to the meditator's screen
 * The meditator reviews the camera feed and quickly determines whether or not
   the potential breech is an actual breech
@@ -149,11 +142,16 @@ The meditator's 30-inch screen always shows 8 different camera feeds
 ~meditator
 ## Meditator
 
-* A trained meditator watches a screen, taking a 20-minute break every 20 minutes
+* A trained meditator watches a screen, taking a 20-minute [break](##break) every 20 minutes
 * Whenever a breech occurs on the screen, the meditator pushes the appropriate button
 * We frequently play videos of breeches to help keep the meditator focused, and
   to evaluate our own performance
-* The meditator can't tell the difference between live feeds and video recordings
+
+~break
+## 20-minute breaks
+
+Frequent breaks are essential to minimizing fatigue and maximizing
+vigilance.
 
 ~chance
 ## Chance
