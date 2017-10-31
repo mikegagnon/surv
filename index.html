@@ -28,9 +28,105 @@
       <div class='column' id="column0"></div>
     </div>
     <div class="content-storage">
-<div id='fp'>
-<h2>False-positive rate</h2>
-<p>1 per month, assuming you&#8217;re actively being red teamed.</p>
+<div id='fair'>
+<h2>A fair deal</h2>
+<ul>
+<li>You give us 100 points in cash in exchange for 50 points of value</li>
+<li>We receive 100 points in cash, and keep 50 points in cash as profit</li>
+<li>Therefore, we&#8217;re trading 50 points of value for 50 points in profit</li>
+<li>There&#8217;s fifty-fifty deals all around</li>
+</ul>
+</div>
+
+<div id='variables'>
+<h2>Variables</h2>
+<ul>
+<li><em>CVFP</em> = the number of computer-vision false positives per day per camera</li>
+<li><em>CVFN</em> = the proportion of internal red-team breeches that aren&#8217;t detected by computer vision</li>
+<li><em>MFP</em> = the average number of meditator&#8217;s false positives per day per camera</li>
+<li><em>MFN</em> = the proportion of internal red-team breeches that aren&#8217;t detected by meditators</li>
+</ul>
+<p>TODO: formalize</p>
+</div>
+
+<div id='cv-accuracy'>
+<h2>Accuracy of the CV system</h2>
+<ul>
+<li>CVFP = the number of CV false positives per day per camera</li>
+<li>RT = response time = the average amount of time it takes for a meditator to assess a 
+  CV false positive</li>
+<li>CVFP * RT = the amount of &#8220;feed time&#8221; required per camera per day</li>
+<li>Y = CVFP * RT / 7 = the amount of &#8220;screen time&#8221; required per camera per day</li>
+</ul>
+<p>Let&#8217;s say:</p>
+<ul>
+<li>CVFP = 10/day/camera</li>
+<li>RT = 20 seconds</li>
+<li>CVFP * RT = 200 seconds/day/camera = 0.002315 days/camera</li>
+<li>Y = CVFP * RT * 1/7 screen/cameras = 0.0003307 days/screen</li>
+<li>X = cameras/screen/day</li>
+<li>X * Y = 1 </li>
+<li>X = 3024 cameras/screen/day</li>
+<li>X / $1230.72/screen/day</li>
+<li>= $2.46/camera/day</li>
+</ul>
+<p>0.002315 days/camera * 7 camera/screen</p>
+<div class="codehilite"><pre><span></span>0.002315 days
+----------
+camera
+</pre></div>
+
+
+<hr>
+<div class="codehilite"><pre><span></span><span class="gh">7 cameras</span>
+<span class="gh">---------</span>
+screen
+</pre></div>
+
+
+<p>=</p>
+<div class="codehilite"><pre><span></span>0.002315 days       1 screen 
+----------     *    ---
+cameras             7 cameras
+</pre></div>
+</div>
+
+<div id='vp'>
+<h2>Value proposition</h2>
+<ul>
+<li>We charge the highest price in our category</li>
+<li>We offer the best service in our category:<ul>
+<li>Near-zero <a href="javascript:Sidenote.openColumnLoud('#vp','#fn','false-negative rate')">false-negative rate</a> </li>
+<li>Low <a href="javascript:Sidenote.openColumnLoud('#vp','#fp','false-positive rate')">false-positive rate</a></li>
+<li>Low <a href="javascript:Sidenote.openColumnLoud('#vp','#latency','latency')">latency</a></li>
+</ul>
+</li>
+<li>We make a 30% profit margin<ul>
+<li>How we calculate <a href="javascript:Sidenote.openColumnLoud('#vp','#cost','cost')">cost</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<div id='cost'>
+<h2>Cost</h2>
+<p><a href="file/cost.pdf"><img src="img/cost.png" width="100%"></a></p>
+</div>
+
+<div id='cv'>
+<h2>Computer vision</h2>
+<ul>
+<li>We use an open-source computer-vision (CV) system to automatically detect breeches</li>
+<li>The CV system has:<ul>
+<li>A near-zero <a href="javascript:Sidenote.openColumnLoud('#cv','#cv-fn','false negative rate')">false negative rate</a></li>
+<li>A low <a href="javascript:Sidenote.openColumnLoud('#cv','#cv-fp','false positive rate')">false positive rate</a></li>
+</ul>
+</li>
+<li>Whenever the CV system thinks there might be a breech, the CV system forwards the camera
+  feed to the meditator&#8217;s screen</li>
+<li>The meditator reviews the camera feed and quickly determines whether or not
+  the potential breech is an actual breech</li>
+</ul>
 </div>
 
 <div id='latency'>
@@ -47,24 +143,10 @@
 </ul>
 </div>
 
-<div id='100value'>
-
-</div>
-
 <div id='investors'>
 <h2>Investors</h2>
 <p>To invest in Zen Surveillance, sign up for a one-year subscription and throw
 us any other money our way.</p>
-</div>
-
-<div id='fair'>
-<h2>A fair deal</h2>
-<ul>
-<li>You give us 100 points in cash in exchange for 50 points of value</li>
-<li>We receive 100 points in cash, and keep 50 points in cash as profit</li>
-<li>Therefore, we&#8217;re trading 50 points of value for 50 points in profit</li>
-<li>There&#8217;s fifty-fifty deals all around</li>
-</ul>
 </div>
 
 <div id='profit'>
@@ -76,15 +158,78 @@ us any other money our way.</p>
 </ul>
 </div>
 
-<div id='variables'>
-<h2>Variables</h2>
+<div id='ideas'>
+<h2>Ideas</h2>
+<p>We can afford to be generous because we claim to be the best.
+Yes, we&#8217;re more expensive, but aim to be the best
+in our category.
+We can afford to throw around
+low prices and high margins. </p>
+</div>
+
+<div id='main'>
+<h2>Welcome</h2>
+<p>We aim to offer the best perimeter video surveillance in our category. We
+detect perimeter breeches.</p>
 <ul>
-<li><em>CVFP</em> = the number of computer-vision false positives per day per camera</li>
-<li><em>CVFN</em> = the proportion of internal red-team breeches that aren&#8217;t detected by computer vision</li>
-<li><em>MFP</em> = the average number of meditator&#8217;s false positives per day per camera</li>
-<li><em>MFN</em> = the proportion of internal red-team breeches that aren&#8217;t detected by meditators</li>
+<li>$500 per camera per year</li>
+<li><a href="javascript:Sidenote.openColumnLoud('#main','#vp','Value proposition')">Value proposition</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#main','#method','Methodology')">Methodology</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#main','#team','Team')">Team</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#main','#open','Open business')">Open business</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#main','#invest','Investing')">Investing</a></li>
 </ul>
-<p>TODO: formalize</p>
+</div>
+
+<div id='method'>
+<h2>Methodology</h2>
+<ul>
+<li><a href="javascript:Sidenote.openColumnLoud('#method','#meditator','The meditator')">The meditator</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#method','#cv','Computer vision')">Computer vision</a></li>
+<li><a href="javascript:Sidenote.openColumnLoud('#method','#screen','The screen')">The screen</a></li>
+</ul>
+</div>
+
+<div id='fp'>
+<h2>False-positive rate</h2>
+<p>1 per month, assuming you&#8217;re actively being red teamed.</p>
+</div>
+
+<div id='redblue'>
+<h2>Red Team</h2>
+<p>We sell our blue team, and we sell our red team. Would you like us to evaluate
+your security system? May we challenge you to evaluate each other via
+mutual red-teaming.</p>
+<ul>
+<li>We give you <a href="javascript:Sidenote.openColumnLoud('#redblue','#100value','100 points of value')">100 points of value</a> in exchange for 100 points in cash.</li>
+</ul>
+</div>
+
+<div id='cost-meditators'>
+<h2>Cost of meditators</h2>
+<p>Each meditator:</p>
+<ul>
+<li>Works 30 hours/week (6 hours/day)</li>
+<li>Makes $30k/year plus benefits worth $10k/year<ul>
+<li>= $40k/year/meditator</li>
+<li>= $25.64/hour/meditator</li>
+</ul>
+</li>
+<li>To cover a screen for 24 hours requires two meditators<ul>
+<li>= 24 hours/day * 2 meditators * $25.64/hour/meditator = $1230.72/screen/day</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<div id='meditator'>
+<h2>Meditator</h2>
+<ul>
+<li>A trained meditator watches a screen, taking a 20-minute <a href="javascript:Sidenote.openColumnLoud('#meditator','#break','break')">break</a> every 20 minutes</li>
+<li>Whenever a breech occurs on the screen, the meditator pushes the appropriate button</li>
+<li>We frequently play videos of breeches to help keep the meditator focused, and
+  to evaluate our own performance</li>
+</ul>
 </div>
 
 <div id='misc'>
@@ -108,71 +253,20 @@ team later.</p>
 <ul>
 <li>It&#8217;s <a href="javascript:Sidenote.openColumnLoud('#misc','#fair','a fair deal')">a fair deal</a></li>
 </ul>
-</div>
-
-<div id='ideas'>
-<h2>Ideas</h2>
-<p>We can afford to be generous because we claim to be the best.
-Yes, we&#8217;re more expensive, but aim to be the best
-in our category.
-We can afford to throw around
-low prices and high margins. </p>
-</div>
-
-<div id='method'>
-<h2>Methodology</h2>
-<ul>
-<li><a href="javascript:Sidenote.openColumnLoud('#method','#meditator','The meditator')">The meditator</a></li>
-<li><a href="javascript:Sidenote.openColumnLoud('#method','#cv','Computer vision')">Computer vision</a></li>
-<li><a href="javascript:Sidenote.openColumnLoud('#method','#screen','The screen')">The screen</a></li>
-<li><a href="javascript:Sidenote.openColumnLoud('#method','#cost','Cost')">Cost</a></li>
-</ul>
-</div>
-
-<div id='vp'>
-<h2>Value proposition</h2>
-<ul>
-<li>We charge the highest price in our category</li>
-<li>We offer the best service in our category:<ul>
-<li>Near-zero <a href="javascript:Sidenote.openColumnLoud('#vp','#fn','false-negative rate')">false-negative rate</a> </li>
-<li>Low <a href="javascript:Sidenote.openColumnLoud('#vp','#fp','false-positive rate')">false-positive rate</a></li>
-<li>Low <a href="javascript:Sidenote.openColumnLoud('#vp','#latency','latency')">latency</a></li>
-</ul>
-</li>
-<li>We make a 30% profit margin<ul>
-<li>How we calculate <a href="javascript:Sidenote.openColumnLoud('#vp','#cost','cost')">cost</a></li>
-</ul>
-</li>
-</ul>
-</div>
-
-<div id='meditator'>
-<h2>Meditator</h2>
-<ul>
-<li>A trained meditator watches a screen, taking a 20-minute <a href="javascript:Sidenote.openColumnLoud('#meditator','#break','break')">break</a> every 20 minutes</li>
-<li>Whenever a breech occurs on the screen, the meditator pushes the appropriate button</li>
-<li>We frequently play videos of breeches to help keep the meditator focused, and
-  to evaluate our own performance</li>
-</ul>
-</div>
-
-<div id='chance'>
-<h2>Chance</h2>
-<p>Take a chance on open business and me.</p>
-<ul>
-<li>We pipe your camera into our computer system</li>
-</ul>
-</div>
-
-<div id='cost'>
-<h2>Cost</h2>
 <p>No commitment unless you want to lock down a price</p>
-</div>
-
-<div id='break'>
-<h2>20-minute breaks</h2>
-<p>Frequent breaks are essential to minimizing fatigue and maximizing
-vigilance.</p>
+<ul>
+<li>
+<p>Our cost is primarily determined by:</p>
+<ul>
+<li>The <a href="javascript:Sidenote.openColumnLoud('#misc','#cost-meditators','cost of meditators')">cost of meditators</a></li>
+<li>The <a href="javascript:Sidenote.openColumnLoud('#misc','#cv-accuracy','accuracy')">accuracy</a> of the computer-vision system</li>
+</ul>
+</li>
+<li>
+<p><a href="javascript:Sidenote.openColumnLoud('#misc','#fair','Fair')">Fair</a></p>
+</li>
+<li><a href="javascript:Sidenote.openColumnLoud('#misc','#investors','Investors')">Investors</a></li>
+</ul>
 </div>
 
 <div id='screen'>
@@ -185,49 +279,26 @@ vigilance.</p>
 </ul>
 </div>
 
-<div id='redblue'>
-<h2>Red Team</h2>
-<p>We sell our blue team, and we sell our red team. Would you like us to evaluate
-your security system? May we challenge you to evaluate each other via
-mutual red-teaming.</p>
-<ul>
-<li>We give you <a href="javascript:Sidenote.openColumnLoud('#redblue','#100value','100 points of value')">100 points of value</a> in exchange for 100 points in cash.</li>
-</ul>
+<div id='100value'>
+
 </div>
 
-<div id='main'>
-<h2>Welcome</h2>
-<p>We aim to offer the best perimeter video surveillance in our category. We
-detect perimeter breeches.</p>
+<div id='chance'>
+<h2>Chance</h2>
+<p>Take a chance on open business and me.</p>
 <ul>
-<li>$N per camera per year</li>
-<li><a href="javascript:Sidenote.openColumnLoud('#main','#vp','Value proposition')">Value proposition</a></li>
-<li><a href="javascript:Sidenote.openColumnLoud('#main','#method','Methodology')">Methodology</a></li>
-<li><a href="javascript:Sidenote.openColumnLoud('#main','#team','Team')">Team</a></li>
-<li><a href="javascript:Sidenote.openColumnLoud('#main','#fair','Fair')">Fair</a></li>
-<li><a href="javascript:Sidenote.openColumnLoud('#main','#investors','Investors')">Investors</a></li>
-</ul>
-</div>
-
-<div id='cv'>
-<h2>Computer vision</h2>
-<ul>
-<li>We use an open-source computer-vision (CV) system to automatically detect breeches</li>
-<li>The CV system has:<ul>
-<li>A near-zero <a href="javascript:Sidenote.openColumnLoud('#cv','#cv-fn','false negative rate')">false negative rate</a></li>
-<li>A low <a href="javascript:Sidenote.openColumnLoud('#cv','#cv-fp','false positive rate')">false positive rate</a></li>
-</ul>
-</li>
-<li>Whenever the CV system thinks there might be a breech, the CV system forwards the camera
-  feed to the meditator&#8217;s screen</li>
-<li>The meditator reviews the camera feed and quickly determines whether or not
-  the potential breech is an actual breech</li>
+<li>We pipe your camera into our computer system</li>
 </ul>
 </div>
 
 <div id='fn'>
 <h2>False-negative rate</h2>
 <p>1 per month, assuming you&#8217;re actively being red teamed.</p>
+</div>
+
+<div id='break'>
+<h2>20-minute breaks</h2>
+<p>Frequent breaks help reduce fatigue and increase vigilance.</p>
 </div>
     </div>
   </body>

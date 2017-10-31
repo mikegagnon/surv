@@ -3,12 +3,12 @@
 We aim to offer the best perimeter video surveillance in our category. We
 detect perimeter breeches.
 
-- $N per camera per year
+- $500 per camera per year
 - [Value proposition](##vp)
 - [Methodology](##method)
 - [Team](##team)
-- [Fair](##fair)
-- [Investors](##investors)
+- [Open business](##open)
+- [Investing](##invest)
 
 ~investors
 ## Investors
@@ -99,7 +99,57 @@ mutual red-teaming.
 ~cost
 ## Cost
 
-No commitment unless you want to lock down a price
+<a href="file/cost.pdf"><img src="img/cost.png" width="100%"></a>
+
+~cv-accuracy
+##  Accuracy of the CV system
+
+* CVFP = the number of CV false positives per day per camera
+* RT = response time = the average amount of time it takes for a meditator to assess a 
+  CV false positive
+* CVFP * RT = the amount of "feed time" required per camera per day
+* Y = CVFP * RT / 7 = the amount of "screen time" required per camera per day
+
+Let's say:
+
+* CVFP = 10/day/camera
+* RT = 20 seconds
+* CVFP * RT = 200 seconds/day/camera = 0.002315 days/camera
+* Y = CVFP * RT * 1/7 screen/cameras = 0.0003307 days/screen
+* X = cameras/screen/day
+* X * Y = 1 
+* X = 3024 cameras/screen/day
+* X / $1230.72/screen/day
+* = $2.46/camera/day
+
+
+0.002315 days/camera * 7 camera/screen
+
+    0.002315 days
+    ----------
+    camera
+--------------------
+    7 cameras
+    ---------
+    screen
+
+=
+
+    0.002315 days       1 screen 
+    ----------     *    ---
+    cameras             7 cameras
+
+~cost-meditators
+## Cost of meditators
+
+Each meditator:
+
+* Works 30 hours/week (6 hours/day)
+* Makes $30k/year plus benefits worth $10k/year
+    * = $40k/year/meditator
+    * = $25.64/hour/meditator
+* To cover a screen for 24 hours requires two meditators
+    * = 24 hours/day * 2 meditators * $25.64/hour/meditator = $1230.72/screen/day
 
 ~ideas
 ## Ideas
@@ -116,7 +166,6 @@ low prices and high margins.
 - [The meditator](##meditator)
 - [Computer vision](##cv)
 - [The screen](##screen)
-- [Cost](##cost)
 
 ~screen
 ## The screen
@@ -150,8 +199,7 @@ low prices and high margins.
 ~break
 ## 20-minute breaks
 
-Frequent breaks are essential to minimizing fatigue and maximizing
-vigilance.
+Frequent breaks help reduce fatigue and increase vigilance.
 
 ~chance
 ## Chance
@@ -189,3 +237,14 @@ The best way to get away with high profit margins is transparency.
 Price formula
 
 - It's [a fair deal](##fair)
+
+No commitment unless you want to lock down a price
+
+
+* Our cost is primarily determined by:
+    * The [cost of meditators](##cost-meditators)
+    * The [accuracy](##cv-accuracy) of the computer-vision system
+
+
+- [Fair](##fair)
+- [Investors](##investors)
